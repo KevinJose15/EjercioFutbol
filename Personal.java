@@ -36,5 +36,12 @@ public class Personal {
     public void setEdad(int edad) {
         this.edad = edad;
     }
-    
+        // Métodos comunes
+    public void concentrarse() {
+        System.out.println(nombre + " está concentrándose.");
+    }
+
+    public void viajar() {
+        System.out.println(nombre + " está viajando.");
+    }
 }
